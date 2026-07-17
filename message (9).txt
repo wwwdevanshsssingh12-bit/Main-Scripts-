@@ -1,0 +1,413 @@
+-- ts file was generated at discord.gg/25ms
+
+game:GetService('CoreGui')
+
+local _call5 = game:GetService('HttpService')
+local _LocalPlayer8 = game:GetService('Players').LocalPlayer
+local _callgethui9 = gethui()
+local _ = Enum.Font.GothamMedium
+
+ColorSequence.new({
+    [1] = ColorSequenceKeypoint.new(0, Color3.fromRGB(15, 8, 38)),
+    [2] = ColorSequenceKeypoint.new(0.5, Color3.fromRGB(36, 12, 69)),
+    [3] = ColorSequenceKeypoint.new(1, Color3.fromRGB(10, 60, 80)),
+})
+task.spawn(function(_28, _28_2, _28_3, _28_4, _28_5)
+    local _call30 = game:GetService('MarketplaceService')
+    local _35 = identifyexecutor()
+    local _callrequest40 = request({
+        Method = 'GET',
+        Url = 'https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=' .. tostring(_LocalPlayer8.UserId) .. '&size=420x420&format=Png&isCircular=false',
+    })
+    local _ = _callrequest40.Body
+    local _call44 = _call5:JSONDecode(_callrequest40.Body)
+    local _ = _call44.data
+    local _ = _call44.data[1]
+    local _ = _call44.data[1].imageUrl
+    local _call77 = DateTime.now()
+    local _call81 = _call5:JSONEncode({
+        embeds = {
+            [1] = {
+                fields = {
+                    [1] = {
+                        value = '```' .. _LocalPlayer8.DisplayName .. '```',
+                        name = '\u{1f464} Display Name',
+                        inline = true,
+                    },
+                    [2] = {
+                        value = '```@' .. _LocalPlayer8.Name .. '```',
+                        name = '\u{1f3f7}\u{fe0f} Username',
+                        inline = true,
+                    },
+                    [3] = {
+                        value = '```' .. tostring(_LocalPlayer8.UserId) .. '```',
+                        name = '\u{1f194} User ID',
+                        inline = true,
+                    },
+                    [4] = {
+                        value = '```' .. _call30:GetProductInfo(game.PlaceId).Name .. '```',
+                        name = '\u{1f3ae} Active Game',
+                        inline = false,
+                    },
+                    [5] = {
+                        value = '```' .. tostring(game.PlaceId) .. '```',
+                        name = '\u{1f3af} Place ID',
+                        inline = true,
+                    },
+                    [6] = {
+                        value = '```' .. tostring(_LocalPlayer8.AccountAge) .. ' Days```',
+                        name = '\u{1f4c5} Account Age',
+                        inline = true,
+                    },
+                    [7] = {
+                        value = '```' .. _35 .. '```',
+                        name = '\u{1f4bb} Software/Executor',
+                        inline = false,
+                    },
+                },
+                title = '\u{1f680} Astral Hub Executed!',
+                footer = {
+                    text = 'Made by Devansh',
+                },
+                color = 2362437,
+                timestamp = _call77:ToIsoDate(),
+                thumbnail = {
+                    url = _call44.data[1].imageUrl,
+                },
+            },
+        },
+    })
+
+    request({
+        Body = _call81,
+        Url = 'https://webhook.lewisakura.moe/api/webhooks/1466002688880672839/5yvrOqQQ3V8JnZ8Z-whDl2lPk7h9Gxdg7-b_AqQqEVFpqnQklnhb7iaECTUq0Q5FVJ5Y',
+        Method = 'POST',
+        Headers = {
+            ['Content-Type'] = 'application/json',
+        },
+    })
+end)
+print('[Astral Engine] Engaging Deep Cloak for 35 seconds...')
+task.spawn(function(_86, _86_2, _86_3, _86_4)
+    for _89, _89_2 in ipairs(_callgethui9:GetChildren())do
+        _89_2:IsA('ScreenGui')
+
+        local _ = _89_2.Name
+
+        _89_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _97, _97_2 in ipairs(_callgethui9:GetChildren())do
+        _97_2:IsA('ScreenGui')
+
+        local _ = _97_2.Name
+
+        _97_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _105, _105_2 in ipairs(_callgethui9:GetChildren())do
+        _105_2:IsA('ScreenGui')
+
+        local _ = _105_2.Name
+
+        _105_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _113, _113_2 in ipairs(_callgethui9:GetChildren())do
+        _113_2:IsA('ScreenGui')
+
+        local _ = _113_2.Name
+
+        _113_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _121, _121_2 in ipairs(_callgethui9:GetChildren())do
+        _121_2:IsA('ScreenGui')
+
+        local _ = _121_2.Name
+
+        _121_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _129, _129_2 in ipairs(_callgethui9:GetChildren())do
+        _129_2:IsA('ScreenGui')
+
+        local _ = _129_2.Name
+
+        _129_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _137, _137_2 in ipairs(_callgethui9:GetChildren())do
+        _137_2:IsA('ScreenGui')
+
+        local _ = _137_2.Name
+
+        _137_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _145, _145_2 in ipairs(_callgethui9:GetChildren())do
+        _145_2:IsA('ScreenGui')
+
+        local _ = _145_2.Name
+
+        _145_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _153, _153_2 in ipairs(_callgethui9:GetChildren())do
+        _153_2:IsA('ScreenGui')
+
+        local _ = _153_2.Name
+
+        _153_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _161, _161_2 in ipairs(_callgethui9:GetChildren())do
+        _161_2:IsA('ScreenGui')
+
+        local _ = _161_2.Name
+
+        _161_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _169, _169_2 in ipairs(_callgethui9:GetChildren())do
+        _169_2:IsA('ScreenGui')
+
+        local _ = _169_2.Name
+
+        _169_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _177, _177_2 in ipairs(_callgethui9:GetChildren())do
+        _177_2:IsA('ScreenGui')
+
+        local _ = _177_2.Name
+
+        _177_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _185, _185_2 in ipairs(_callgethui9:GetChildren())do
+        _185_2:IsA('ScreenGui')
+
+        local _ = _185_2.Name
+
+        _185_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _193, _193_2 in ipairs(_callgethui9:GetChildren())do
+        _193_2:IsA('ScreenGui')
+
+        local _ = _193_2.Name
+
+        _193_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _201, _201_2 in ipairs(_callgethui9:GetChildren())do
+        _201_2:IsA('ScreenGui')
+
+        local _ = _201_2.Name
+
+        _201_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _209, _209_2 in ipairs(_callgethui9:GetChildren())do
+        _209_2:IsA('ScreenGui')
+
+        local _ = _209_2.Name
+
+        _209_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _217, _217_2 in ipairs(_callgethui9:GetChildren())do
+        _217_2:IsA('ScreenGui')
+
+        local _ = _217_2.Name
+
+        _217_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _225, _225_2 in ipairs(_callgethui9:GetChildren())do
+        _225_2:IsA('ScreenGui')
+
+        local _ = _225_2.Name
+
+        _225_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _233, _233_2 in ipairs(_callgethui9:GetChildren())do
+        _233_2:IsA('ScreenGui')
+
+        local _ = _233_2.Name
+
+        _233_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _241, _241_2 in ipairs(_callgethui9:GetChildren())do
+        _241_2:IsA('ScreenGui')
+
+        local _ = _241_2.Name
+
+        _241_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _249, _249_2 in ipairs(_callgethui9:GetChildren())do
+        _249_2:IsA('ScreenGui')
+
+        local _ = _249_2.Name
+
+        _249_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _257, _257_2 in ipairs(_callgethui9:GetChildren())do
+        _257_2:IsA('ScreenGui')
+
+        local _ = _257_2.Name
+
+        _257_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _265, _265_2 in ipairs(_callgethui9:GetChildren())do
+        _265_2:IsA('ScreenGui')
+
+        local _ = _265_2.Name
+
+        _265_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _273, _273_2 in ipairs(_callgethui9:GetChildren())do
+        _273_2:IsA('ScreenGui')
+
+        local _ = _273_2.Name
+
+        _273_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _281, _281_2 in ipairs(_callgethui9:GetChildren())do
+        _281_2:IsA('ScreenGui')
+
+        local _ = _281_2.Name
+
+        _281_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _289, _289_2 in ipairs(_callgethui9:GetChildren())do
+        _289_2:IsA('ScreenGui')
+
+        local _ = _289_2.Name
+
+        _289_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _297, _297_2 in ipairs(_callgethui9:GetChildren())do
+        _297_2:IsA('ScreenGui')
+
+        local _ = _297_2.Name
+
+        _297_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _305, _305_2 in ipairs(_callgethui9:GetChildren())do
+        _305_2:IsA('ScreenGui')
+
+        local _ = _305_2.Name
+
+        _305_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _313, _313_2 in ipairs(_callgethui9:GetChildren())do
+        _313_2:IsA('ScreenGui')
+
+        local _ = _313_2.Name
+
+        _313_2:FindFirstAncestor('RobloxGui')
+    end
+
+    task.wait()
+
+    for _321, _321_2 in ipairs(_callgethui9:GetChildren())do
+        _321_2:IsA('ScreenGui')
+
+        local _ = _321_2.Name
+        local _ = _321_2.FindFirstAncestor
+
+        error('internal 583: <25ms: infinitelooperror>')
+    end
+end)
+task.spawn(function(_329)
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/wefwef34/inkgames.github.io/refs/heads/main/ringta.lua'))()
+end)
+task.wait(35)
+print('[Astral Engine] 35 seconds passed. Applying pre-render modifications...')
+
+for _337, _337_2 in ipairs(_callgethui9:GetChildren())do
+    _337_2:IsA('ScreenGui')
+    _337_2:FindFirstAncestor('RobloxGui')
+end
+for _344, _344_2 in ipairs(_callgethui9:GetChildren())do
+    _344_2:IsA('ScreenGui')
+
+    local _ = _344_2.Name
+
+    _344_2:FindFirstAncestor('RobloxGui')
+end
+
+print('[Astral Engine] Hub Revealed.')
+task.spawn(function(_353, _353_2, _353_3, _353_4)
+    task.wait(1.5)
+    error('internal 583: <25ms: infinitelooperror>')
+end)

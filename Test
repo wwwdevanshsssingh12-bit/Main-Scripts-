@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://genocidescriptguard.netlify.app/api/v1/load/3b1fd581-688f-41df-8bb3-aaad7dc13030"))()
+loadstring(game:HttpGet("https://genocidescriptguard.netlify.app/api/v1/load/7eaac9b8-bd38-473e-b341-a969f1c5a3e7"))()

